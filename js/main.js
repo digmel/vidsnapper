@@ -13,7 +13,6 @@ let width = 700,
 async function getUserMedia() {
   try {
     const stream = await navigator.mediaDevices.getUserMedia({
-      video: true,
       audio: false,
       video: {
         facingMode: "environment",
